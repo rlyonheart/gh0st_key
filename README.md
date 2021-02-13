@@ -30,4 +30,4 @@
 
 -Use command 'info' to see program info
 
-# Screenshot
+# Screenshots
