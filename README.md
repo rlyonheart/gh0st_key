@@ -11,7 +11,7 @@
 
 -blake2s 
 
--MD4
+
 
 -MD5
 
