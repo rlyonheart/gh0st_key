@@ -59,7 +59,7 @@ def GHOST_KEY():
 	for password in passwords:
 		blake2b = hash.blake2b(password.encode()).hexdigest()
 		blake2s = hash.blake2s(password.encode()).hexdigest()
-		md4 = hash.md4(password.encode()).hexdigest()
+		
 		md5 = hash.md5(password.encode()).hexdigest()
 		sha1 = hash.sha1(password.encode()).hexdigest()
 		sha224 = hash.sha224(password.encode()).hexdigest()
@@ -68,7 +68,7 @@ def GHOST_KEY():
 		sha512 = hash.sha512(password.encode()).hexdigest()
 
 		# Checking whether any hashing algorithm cracked the password or not #
-		if pass_hash == blake2s or pass_hash == blake2b or pass_hash == md5 or pass_hash == md4 or pass_hash == sha1 or pass_hash == sha256 or pass_hash == sha384 or pass_hash == sha512:
+		if pass_hash == blake2s or pass_hash == blake2b or pass_hash == md5 or pass_hash == sha1 or pass_hash == sha256 or pass_hash == sha384 or pass_hash == sha512:
 
 			# If any of the hashing algorithm cracks the password, loop breaks #
 			time.sleep(0.3)
@@ -102,7 +102,7 @@ elif 'info' in inp:
     Requirements: Hashlib, Termcolor
     Supported Hashes: blake2b, blake2s, SHA1,
                       SHA224, SHA256, SHA384,
-                      SHA512, MD4, MD5
+                      SHA512, MD5
                       
     __AUTH0R INF0__
     Name: eihctir
