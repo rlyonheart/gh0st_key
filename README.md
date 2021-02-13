@@ -1,4 +1,5 @@
 # gh0st_key
+-Is hash cracker program written in python. 
 
 # Requirements
 -hashlib
@@ -24,7 +25,7 @@
 
 -SHA512 
 
-# NOTE
+# CMD
 -Write gh0st -h to initiate the program  
 
 -Use command 'info' to see program info
