@@ -32,7 +32,7 @@ def GHOST_KEY():
 	# Asking user for input(s) #
 	pass_hash = input(colored('\n\t[?] Enter hash: ','white'))
 	time.sleep(0.3)
-	wordlist = input(colored('\t[?]Enter wordlist directory: ','white'))
+	wordlist = input(colored('\t[?]Enter wordlist: ','white'))
 	print('\n\t')
 	print('\t[..][gh0st key started...] at',datetime.now())
 
